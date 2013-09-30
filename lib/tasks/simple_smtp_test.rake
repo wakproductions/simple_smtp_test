@@ -1,4 +1,4 @@
-require "#{Rails.root}/lib/tasks/simple_smtp_test_mailer.rb"
+require "lib/tasks/simple_smtp_test_mailer.rb"
 
 desc 'Tests out the email settings in the current environment'
 task :simple_smtp_test, [:to_email_address] => :environment do |t, args|
