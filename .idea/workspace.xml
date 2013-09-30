@@ -12,7 +12,7 @@
     <file path="$PROJECT_DIR$/../sample_app/Gemfile" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380571858373" ignored="false" />
     <file path="/simple_smtp_test.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380573596962" ignored="false" />
     <file path="/railtie.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380573742645" ignored="false" />
-    <file path="$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_smtp_test-1.0.0/lib/tasks/simple_smtp_test.rake" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380574677884" ignored="false" />
+    <file path="$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_smtp_test-1.0.0/lib/tasks/simple_smtp_test.rake" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380574769159" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,46 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gem_tasks.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.3.5/lib/bundler/gem_tasks.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gem_helpers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.3.5/lib/bundler/gem_helpers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gem_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.3.5/lib/bundler/gem_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="38" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="railtie.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/simple_smtp_test/railtie.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="63" selection-start="210" selection-end="210" vertical-scroll-proportion="0.295858">
+            <state line="6" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.17751479">
               <folding />
             </state>
           </provider>
@@ -436,13 +400,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="687" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -553,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.3.5/lib/bundler/gem_tasks.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -581,6 +538,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/simple_smtp_test/simple_smtp_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="81" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
@@ -590,7 +554,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/simple_smtp_test/railtie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="63" selection-start="210" selection-end="210" vertical-scroll-proportion="0.295858">
+        <state line="6" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.17751479">
           <folding />
         </state>
       </provider>
