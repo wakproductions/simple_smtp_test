@@ -27,6 +27,8 @@
     <file path="$PROJECT_DIR$/../dermbids/lib/tasks/simple_smtp_test_mailer.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380600803764" ignored="false" />
     <file path="/simple_smtp_test_mailer.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380600797559" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/config/environments/development.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380602239605" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/README.rdoc" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380637589599" ignored="false" />
+    <file path="/README.rdoc" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380637589599" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
