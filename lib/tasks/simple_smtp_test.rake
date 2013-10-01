@@ -1,11 +1,11 @@
-require "lib/tasks/simple_smtp_test_mailer.rb"
+require 'simple_smtp_test/simple_smtp_test_mailer'
 
 desc 'Tests out the email settings in the current environment'
 task :simple_smtp_test, [:to_email_address] => :environment do |t, args|
   raise 'Error: Please provide an email address as a parameter.' if args[:to_email_address].blank?
 
   puts "Current Mail Server Settings:"
-  puts "\n#{ActionMailer::Base.smtp_settings.to_yaml}\nCurrent Rails Environment: #{Rails.env}"
+  puts "\n#{ActionMailer::Base.smtp_settings.to_yaml}\nCurrent Rails Environment: #{Rails.env}" if defined?(Rails)
   puts "Preparing to send test message to #{args[:to_email_address]}..."
 
   mailobj = SimpleSmtpTestMailer.test_email(args[:to_email_address])

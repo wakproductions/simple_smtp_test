@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/tasks/simple_smtp_test_mailer.rb" afterPath="$PROJECT_DIR$/lib/simple_smtp_test/simple_smtp_test_mailer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/simple_smtp_test.iml" afterPath="$PROJECT_DIR$/.idea/simple_smtp_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/tasks/null.txt" afterPath="$PROJECT_DIR$/spec/tasks/null.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple_smtp_test.gemspec" afterPath="$PROJECT_DIR$/simple_smtp_test.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/simple_smtp_test.rake" afterPath="$PROJECT_DIR$/lib/tasks/simple_smtp_test.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="simple_smtp_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380561138518" ignored="false" />
-    <file path="/simple_smtp_test.gemspec" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380569192410" ignored="false" />
+    <file path="/simple_smtp_test.gemspec" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380599492107" ignored="false" />
     <file path="/Gemfile" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380571858373" ignored="false" />
     <file path="$PROJECT_DIR$/../sample_app/Gemfile" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380571858373" ignored="false" />
     <file path="/simple_smtp_test.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380576200064" ignored="false" />
     <file path="/railtie.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380573742645" ignored="false" />
-    <file path="$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_smtp_test-1.0.0/lib/tasks/simple_smtp_test.rake" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380582671903" ignored="false" />
-    <file path="$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_smtp_test-1.0.0/lib/simple_smtp_test/railtie.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380576294646" ignored="false" />
+    <file path="$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_smtp_test-1.0.0/lib/tasks/simple_smtp_test.rake" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380602092403" ignored="false" />
+    <file path="$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_smtp_test-1.0.0/lib/simple_smtp_test/railtie.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380602089140" ignored="false" />
+    <file path="$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/simple_smtp_test-1.0.0/lib/tasks/simple_smtp_test_mailer.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380582949789" ignored="false" />
+    <file path="/spec_helper.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380599123851" ignored="false" />
+    <file path="/simple_smtp_test.rake" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380601640992" ignored="false" />
+    <file path="$PROJECT_DIR$/../dermbids/lib/tasks/simple_smtp_test_mailer.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380600803764" ignored="false" />
+    <file path="/simple_smtp_test_mailer.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380600797559" ignored="false" />
+    <file path="$PROJECT_DIR$/../sample_app/config/environments/development.rb" changelist="cd9c8d3e-a565-4ede-b343-76a1ec9b4d89" time="1380602239605" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +49,7 @@
       <file leaf-file-name="simple_smtp_test.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple_smtp_test.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-12.413794">
+            <state line="10" column="86" selection-start="451" selection-end="451" vertical-scroll-proportion="-5.172414">
               <folding />
             </state>
           </provider>
@@ -45,16 +58,25 @@
       <file leaf-file-name="simple_smtp_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/simple_smtp_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="68" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+            <state line="3" column="35" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="25" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="simple_smtp_test_mailer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tasks/simple_smtp_test_mailer.rb">
+        <entry file="file://$PROJECT_DIR$/lib/simple_smtp_test/simple_smtp_test_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,7 +85,16 @@
       <file leaf-file-name="simple_smtp_test.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/simple_smtp_test.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+            <state line="7" column="113" selection-start="440" selection-end="440" vertical-scroll-proportion="0.20710059">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="54" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,7 +103,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="78" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+            <state line="3" column="7" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,11 +128,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/simple_smtp_test/version.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/simple_smtp_test.gemspec" />
         <option value="$PROJECT_DIR$/lib/simple_smtp_test/simple_smtp_test.rb" />
         <option value="$PROJECT_DIR$/lib/simple_smtp_test/railtie.rb" />
         <option value="$PROJECT_DIR$/lib/simple_smtp_test.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/simple_smtp_test.gemspec" />
+        <option value="$PROJECT_DIR$/lib/simple_smtp_test/simple_smtp_test_mailer.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/simple_smtp_test.rake" />
       </list>
     </option>
@@ -223,6 +257,20 @@
               <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_smtp_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_smtp_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -257,6 +305,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_smtp_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_smtp_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple_smtp_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,9 +337,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/simple_smtp_test" />
       <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
@@ -491,20 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/simple_smtp_test_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="78" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bundler-1.3.5/lib/bundler/gem_tasks.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -526,7 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
+    <entry file="file://$PROJECT_DIR$/spec/tasks/null.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -535,35 +589,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/simple_smtp_test/railtie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.17751479">
+        <state line="6" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.16981132">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple_smtp_test.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-12.413794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/tasks/null.txt">
+    <entry file="file://$PROJECT_DIR$/spec/tasks/simple_smtp_test_rake_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="7" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="54" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/simple_smtp_test/simple_smtp_test_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="25" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/simple_smtp_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="68" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+        <state line="3" column="35" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_smtp_test.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="86" selection-start="451" selection-end="451" vertical-scroll-proportion="-5.172414">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/simple_smtp_test.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+        <state line="7" column="113" selection-start="440" selection-end="440" vertical-scroll-proportion="0.20710059">
           <folding />
         </state>
       </provider>
