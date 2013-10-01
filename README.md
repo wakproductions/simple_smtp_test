@@ -1,29 +1,31 @@
+== README
+
 # SimpleSmtpTest
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
+To use this gem, you must be using a Rails application with ActionMailer. It installs a rake command which you can
+use to send yourself a test email to verify that your email settings are working. To use it, install it as a gem in your
+Rails program:
 
     gem 'simple_smtp_test'
 
-And then execute:
+Then do a bundle install. The rake task should become available. To run it, simply run from the command line:
 
-    $ bundle
+    $ rake simple_smtp_test['myemail@example.com']
 
-Or install it yourself as:
+It will display output which looks like this:
 
-    $ gem install simple_smtp_test
+<tt>Current Mail Server Settings:
 
-## Usage
+---
+:address: smtp.myserver.com
+:enable_starttls_auto: true
+:port: 587
+:user_name: myemail@example.com
+:password: password
 
-TODO: Write usage instructions here
+Current Rails Environment: development
+Preparing to send test message to myemail@example.com...
+Message successfully sent. Please check that the test message was received.</tt>
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+You should then have a message in your email inbox if the email settings work. If an error occurred while connecting
+to the email server, it will display the error message in the command line output.
