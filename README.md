@@ -1,6 +1,7 @@
 == README
 
 # SimpleSmtpTest
+[![Code Climate](https://codeclimate.com/github/wakproductions/simple_smtp_test.png)](https://codeclimate.com/github/wakproductions/simple_smtp_test)
 
 To use this gem, you must be using a Rails application with ActionMailer. It installs a rake command which you can
 use to send yourself a test email to verify that your email settings are working. To use it, install it as a gem in your
