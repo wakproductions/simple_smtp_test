@@ -1,5 +1,3 @@
-README
-
 # SimpleSmtpTest
 [![Code Climate](https://codeclimate.com/github/wakproductions/simple_smtp_test.png)](https://codeclimate.com/github/wakproductions/simple_smtp_test)
 
