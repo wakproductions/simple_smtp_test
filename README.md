@@ -1,4 +1,4 @@
-== README
+README
 
 # SimpleSmtpTest
 [![Code Climate](https://codeclimate.com/github/wakproductions/simple_smtp_test.png)](https://codeclimate.com/github/wakproductions/simple_smtp_test)
@@ -15,7 +15,8 @@ Then do a bundle install. The rake task should become available. To run it, simp
 
 It will display output which looks like this:
 
-<tt>Current Mail Server Settings:
+```
+Current Mail Server Settings:
 
 ---
 :address: smtp.myserver.com
@@ -26,7 +27,8 @@ It will display output which looks like this:
 
 Current Rails Environment: development
 Preparing to send test message to myemail@example.com...
-Message successfully sent. Please check that the test message was received.</tt>
+Message successfully sent. Please check that the test message was received.
+```
 
 You should then have a message in your email inbox if the email settings work. If an error occurred while connecting
 to the email server, it will display the error message in the command line output.
